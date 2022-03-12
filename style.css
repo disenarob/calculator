@@ -46,19 +46,19 @@ h1{
     border:1px solid rgb(62, 104, 196);
 }
 
-.btn:active{
+.active{
     background: #b1b1b1;
 }
 
-.input-buttons, .clear-buttons{
+.input-buttons, .clear-button{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.clear-buttons .btn{
-    flex-basis:45%;
-    margin: 5px;
+.clear-button .btn{
+    flex-basis:100%;
+    margin: 10px;
 }
 
 .input-buttons .btn{
